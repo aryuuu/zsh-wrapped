@@ -1,0 +1,25 @@
+{
+    "name": "zsh-wrapped",
+    "description": "show most used command in one year for zsh user",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aryuuu/zsh-wrapped"
+    },
+    "keywords": [
+        "zsh",
+        "wrapped"
+    ],
+    "authors": [
+        "https://github.com/aryuuu",
+        "https://github.com/bmusuko"
+    ],
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "os": "^0.1.2"
+    }
+}
