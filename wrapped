@@ -9,7 +9,7 @@ get_weekly_activity () {
 }
 
 get_top_commands () {
-    history | awk '{print $2}' | sort | uniq -c | sort -k1nr | head -10
+    history | awk '{print $2}' | sort | uniq -c | sort -k1nr | head -15
 }
 
 zsh_wrapped () {
@@ -17,10 +17,12 @@ zsh_wrapped () {
     echo "Daily Activity"
     echo "====================="
     get_daily_activity
+    echo ""
     echo "====================="
     echo "Weekly Activity"
     echo "====================="
     get_weekly_activity
+    echo ""
     echo "====================="
     echo "Top Commands"
     echo "====================="
